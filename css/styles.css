@@ -349,6 +349,32 @@ header {
   fill: var(--header-color);
 }
 
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-field {
+  position: relative;
+}
+
+.modal-form-input {
+  display: block;
+  width: 100%;
+
+  padding-left: 42px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.modal-form-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* =============  STUDIO. ADVANTAGES SECTION  ============= */
 
 .advantages-section {
