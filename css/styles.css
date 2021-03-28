@@ -800,7 +800,6 @@ footer {
 }
 
 .mailing {
-  /*display: flex;*/
   margin-left: 93px;
 }
 
@@ -844,6 +843,16 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.email-input-footer:focus {
+  color: var(--white-color);
+  padding: 15px 16px;
+}
+
+.email-input-footer:not(:placeholder-shown) {
+  color: var(--white-color);
+  padding: 15px 16px;
+}
+
 .subscribe-btm {
   display: inline-flex;
   justify-content: center;
@@ -857,9 +866,6 @@ footer {
 
   width: 200px;
   height: 50px;
-  /* padding: 10px 28px;
-  padding-left: 28px;
-  padding-right: 28px;*/
 
   color: var(--white-color);
   background: var(--accent-color);
